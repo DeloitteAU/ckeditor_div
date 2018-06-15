@@ -1,6 +1,6 @@
 <?php
 
-namespace Drupal\ckeditor_div\Plugin\DivPlugin;
+namespace Drupal\ckeditor_div\Plugin\CKEditorPlugin;
 
 use Drupal\ckeditor\CKEditorPluginBase;
 use Drupal\editor\Entity\Editor;
