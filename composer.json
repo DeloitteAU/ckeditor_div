@@ -16,22 +16,5 @@
     "support": {
         "issues": "https://www.drupal.org/project/issues/ckeditor_div",
         "source": "http://cgit.drupalcode.org/ckeditor_div"
-    },
-    "require": {
-        "cksource/div": "^4.8"
-    },
-    "repositories": [
-        {
-            "type": "package",
-            "package": {
-                "name": "cksource/div",
-                "version": "4.8.0",
-                "type": "drupal-library",
-                "dist": {
-                    "url": "https://download.ckeditor.com/div/releases/div_4.8.0.zip",
-                    "type": "zip"
-                }
-            }
-        }
-    ]
+    }
 }
