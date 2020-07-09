@@ -4,4 +4,4 @@ description: 'Enables the Div Container Manager plugin for CKEditor.'
 core: 8.x
 package: 'CKEditor'
 dependencies:
-  - ckeditor
+  - drupal:ckeditor
