@@ -20,6 +20,13 @@ use Drupal\editor\Entity\Editor;
 class DivPlugin extends CKEditorPluginBase {
 
   /**
+   *  Get path to library folder.
+   */
+  public function getLibraryPath() {
+    return 'libraries/div';
+  }
+
+  /**
    * {@inheritdoc}
    *
    * NOTE: The keys of the returned array corresponds to the CKEditor button
@@ -32,7 +39,7 @@ class DivPlugin extends CKEditorPluginBase {
     return [
       'CreateDiv' => [
         'label' => t('Create Div'),
-        'image' => base_path() . 'libraries/div/icons/creatediv.png',
+        'image' => $this->getLibraryPath() . '/icons/creatediv.png',
       ],
     ];
   }
@@ -41,7 +48,7 @@ class DivPlugin extends CKEditorPluginBase {
    * {@inheritdoc}
    */
   public function getFile() {
-    return base_path() . 'libraries/div/plugin.js';
+    return $this->getLibraryPath() . '/plugin.js';
   }
 
   /**
