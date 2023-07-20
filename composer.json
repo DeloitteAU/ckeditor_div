@@ -14,7 +14,6 @@
 		}
 	],
     "support": {
-        "issues": "https://www.drupal.org/project/issues/ckeditor_div",
-        "source": "http://cgit.drupalcode.org/ckeditor_div"
+        "source": "https://github.com/DeloitteDigitalAPAC/ckeditor_div.git"
     }
 }
