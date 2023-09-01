@@ -1,3 +1,7 @@
+⚠️ DO NOT USE - This module was forked to enable uninstall and removal after upgrade from Drupal 8/9 to Drupal 10.
+
+-----
+
 This module enables the Div Container Manager plugin for CKEditor.
 
 Installation
